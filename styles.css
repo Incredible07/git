@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: lighter;
+}
+
+h1 {
+  text-align: center;
+}
+
+.chicken {
+  background-color: lightskyblue;
+  color: white; 
+}
+
+.beef {
+  background-color: wheat;
+}
+
+.sushi {
+  background-color:  lightsalmon;
+}
+
+
+h2 {
+  border: 3px solid black;
+  font-size: 20px;
+  float: right;
+  text-align: center;
+  position: relative;
+  bottom: 15%;
+  left: 0px;
+  right: 0px;
+  width: 150px;
+  margin-top: 0;
+  border-radius: 10px;
+  
+}
+
+p {
+  padding-top: 50px;
+  padding-left: 5px;
+  border: 3px solid black;
+  margin-bottom: auto;
+  margin-left: 10px;
+  background-color: gray;
+  border-radius: 10px;;
+
+}
+
+.row {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  h2 {
+    top: 16px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+  h2 {
+    top: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-md-12, .col-lg-4 {
+    width: 100%;
+  }
+}

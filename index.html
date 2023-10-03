@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+* {
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: lighter;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.chicken {
+  background-color: lightskyblue;
+  color: white; 
+}
+
+.beef {
+  background-color: wheat;
+}
+
+.sushi {
+  background-color:  lightsalmon;
+}
+
+
+h2 {
+  border: 1px solid black;
+  font-size: 20px;
+  float: right;
+  text-align: center;
+  position: relative;
+  bottom: 15%;
+  left: 0px;
+  right: 0px;
+  width: 150px;
+  margin-top: 0;
+  border-radius: 10px;
+  
+}
+
+p {
+  padding-top: 50px;
+  padding-left: 5px;
+  border: 1px solid black;
+  margin-bottom: auto;
+  margin-left: 10px;
+  background-color: lightgrey;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  /* color: lightcyan; */
+  }
+
+.row {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  h2 {
+    top: 17px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+  h2 {
+    top: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-md-12, .col-lg-4 {
+    width: 100%;
+  }
+}
+  </style>
+</head>
+<body>
+  <h1>Our Menu</h1>
+  
+  <div class="row">
+    <div class="col-lg-4 col-md-6">
+      <h2 class="chicken">Chicken</h2>
+      <p>Lorem ipsum dolor sit amet, 
+        consectetur adipisicing elit. 
+        Harum provident tenetur asperiores 
+        aspernatur cumque aperiam aut reiciendis 
+        pariatur tempora, magni ipsum voluptatem 
+        iure! Ducimus, repellat? Itaque fugiat velit amet similique voluptates</p>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+      <h2 class="beef">Beef</h2>
+      <p>Lorem ipsum dolor sit amet, 
+        consectetur adipisicing elit. 
+        Harum provident tenetur asperiores 
+        aspernatur cumque aperiam aut reiciendis 
+        pariatur tempora, magni ipsum voluptatem 
+        iure! Ducimus, repellat? Itaque fugiat velit amet similique voluptates</p>
+    </div>
+
+    <div class="col-lg-4 col-md-12">
+      <h2 class="sushi">Sushi</h2>
+      <p>Lorem ipsum dolor sit amet, 
+        consectetur adipisicing elit. 
+        Harum provident tenetur asperiores 
+        aspernatur cumque aperiam aut reiciendis 
+        pariatur tempora, magni ipsum voluptatem 
+        iure! Ducimus, repellat? Itaque fugiat velit amet similique voluptates</p>
+    </div>
+  </div>
+</body>
+</html>
